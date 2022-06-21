@@ -1,0 +1,47 @@
+{
+  "name": "portfolio-website",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/NomadHash/portfolio-website.git",
+  "author": "nomadHash <badsoap141@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-react": "^7.17.12",
+    "@babel/preset-typescript": "^7.17.12",
+    "@babel/runtime": "^7.17.9",
+    "@babel/runtime-corejs2": "^7.17.11",
+    "@emotion/babel-plugin": "^11.9.2",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
+    "@types/node": "^17.0.21",
+    "@types/react-router-dom": "^5.3.3",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "dotenv-webpack": "^7.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "node-sass": "^7.0.1",
+    "react-refresh": "^0.14.0",
+    "sass": "^1.50.1",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.2"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.17.10",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-flow": "^7.16.7",
+    "@testing-library/react": "12",
+    "add": "^2.0.6",
+    "axios": "^0.26.0",
+    "babel-polyfill": "^6.26.0",
+    "core-js": "2",
+    "intersection-observer": "^0.12.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "terser-webpack-plugin": "4.2.3"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --env=dev --open &&  NODE_ENV=development"
+  }
+}
